@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ff0033cc"
+        android:textColor="#ffff0000"
         android:textSize="14sp"
         android:textStyle="bold" >
     </TextView>
