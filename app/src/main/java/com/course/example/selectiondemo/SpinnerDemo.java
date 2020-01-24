@@ -8,6 +8,7 @@ import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class SpinnerDemo extends Activity implements OnItemSelectedListener {
 	private TextView selection;
@@ -40,6 +41,7 @@ public class SpinnerDemo extends Activity implements OnItemSelectedListener {
 	public void onItemSelected(AdapterView<?> parent, View v, int position,
 			long id) {
 		selection.setText(items[position]);
+		Toast.makeText(this, "Spinner item selected " + items[position], Toast.LENGTH_LONG).show();
 	}
 
 	public void onNothingSelected(AdapterView<?> parent) {

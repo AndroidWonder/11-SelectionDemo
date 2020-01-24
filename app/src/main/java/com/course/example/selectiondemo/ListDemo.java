@@ -13,6 +13,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ListDemo extends Activity implements AdapterView.OnItemClickListener {
 
@@ -43,6 +44,7 @@ public class ListDemo extends Activity implements AdapterView.OnItemClickListene
 
 		String text = " position:" + position + "  " + items[position];
 		selection.setText(text);
+		Toast.makeText(this, "List item selected " + items[position], Toast.LENGTH_LONG).show();
 	}
 
 }

@@ -11,6 +11,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class GridDemo extends Activity implements OnItemClickListener {
@@ -39,6 +40,7 @@ public class GridDemo extends Activity implements OnItemClickListener {
 
 	public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
 		selection.setText(items[position]);
+		Toast.makeText(this, "Grid item selected " + items[position], Toast.LENGTH_LONG).show();
 	}
 	
 }// class
