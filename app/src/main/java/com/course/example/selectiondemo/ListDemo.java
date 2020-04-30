@@ -20,9 +20,8 @@ public class ListDemo extends Activity implements AdapterView.OnItemClickListene
 	private TextView selection;
 	private ListView listview;
 
-	private final String[] items = { "one", "two", "three", "four",
-			"five", "six","seven",
-			"eight", "nine", "ten" };
+	private final String[] items = { "Android", "Java", "Python", "C",
+			"PHP", "C++","C#", "Javascript", "GO", "Swift" };
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

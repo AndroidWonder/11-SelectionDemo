@@ -17,9 +17,8 @@ import android.widget.Toast;
 public class GridDemo extends Activity implements OnItemClickListener {
 
 	private TextView selection;
-	private final String[] items = { "one", "two", "three", "four",
-			   "five", "six","seven", 
-			   "eight", "nine", "ten" };
+	private final String[] items = { "Android", "Java", "Python", "C",
+			"PHP", "C++","C#", "Javascript", "GO", "Swift" };
 
 	@Override
 	public void onCreate(Bundle icicle) {

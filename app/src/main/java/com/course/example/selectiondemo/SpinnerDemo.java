@@ -12,9 +12,8 @@ import android.widget.Toast;
 
 public class SpinnerDemo extends Activity implements OnItemSelectedListener {
 	private TextView selection;
-	private final String[] items = { "one", "two", "three", "four",
-			   "five", "six","seven", 
-			   "eight", "nine", "ten" };
+	private final String[] items = { "Android", "Java", "Python", "C",
+			"PHP", "C++","C#", "Javascript", "GO", "Swift" };
 
 	@Override
 	public void onCreate(Bundle icicle) {
