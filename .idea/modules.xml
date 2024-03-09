@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/11-SelectionDemo.iml" filepath="$PROJECT_DIR$/11-SelectionDemo.iml" group="11-SelectionDemo" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="11-SelectionDemo/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/11-SelectionDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/11-SelectionDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/11-SelectionDemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/11-SelectionDemo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/11-SelectionDemo.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/11-SelectionDemo.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/11-SelectionDemo.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/11-SelectionDemo.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/11-SelectionDemo.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/11-SelectionDemo.app.unitTest.iml" />
     </modules>
   </component>
 </project>
